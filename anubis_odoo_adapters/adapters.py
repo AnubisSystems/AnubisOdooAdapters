@@ -5,8 +5,8 @@
 import requests
 import random
 
-from anubis_product_core.models import CoreProduct
-from anubis_product_core.interfaces import IProductAdapter
+from anubis_core.features.product.models import CoreProduct
+from anubis_core.features.product.ports import IProductAdapter
 
 class OdooProductAdapter(IProductAdapter):
     def __init__(self, url_odoo: str, db_odoo: str, user_odoo: str, password_odoo: str):
