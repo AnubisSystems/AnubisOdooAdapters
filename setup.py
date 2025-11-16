@@ -21,6 +21,6 @@ setup(
         "Intended Audience :: Developers",
         "Intended Audience :: Legal Industry",
         "Topic :: Education",
-    ]
+    ],
     python_requires=">=3.13.0",
 )
