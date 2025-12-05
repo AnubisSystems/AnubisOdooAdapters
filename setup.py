@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="hexarch_odoo_adapters",
+    name="AnubisOdooAdapters",
     version="0.0.2",
     packages=find_packages(),
     author="Jose Manuel Herrera Saenz",
@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/AnubisSystems/AnubisOdooAdapters.git",
     install_requires=[
-        "anubis_product_core @ git+https://github.com/AnubisSystems/AnubisProductCore.git"
+        "AnubisCore @ git+https://github.com/AnubisSystems/AnubisCore.git"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
