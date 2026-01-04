@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="AnubisOdooAdapters",
-    version="0.0.3",
+    version="0.0.4",
     packages=find_packages(),
     author="Jose Manuel Herrera Saenz",
     author_email="incubadoradepollos@gmail.com",
